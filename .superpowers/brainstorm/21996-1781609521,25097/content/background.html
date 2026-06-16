@@ -1,0 +1,43 @@
+<h2>Sfondo dell'animazione</h2>
+<p class="subtitle">Per pagina web e export video/GIF</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Bianco</h3>
+      <p>Sfondo bianco puro — come una pagina stampata</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Trasparente</h3>
+      <p>Solo testo e tracciato, sfondo trasparente (utile per overlay su siti)</p>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Colore personalizzato</h3>
+      <p>Specifica il colore nel terminale</p>
+    </div>
+  </div>
+</div>
+
+<div class="cards" style="margin-top:24px">
+  <div class="card">
+    <div class="card-image" style="background:#fff;display:flex;align-items:center;justify-content:center;height:120px;border:1px solid #eee">
+      <span style="font-size:11px;color:#333">testo nero su bianco</span>
+    </div>
+    <div class="card-body"><h3>Anteprima A</h3></div>
+  </div>
+  <div class="card">
+    <div class="card-image" style="background:repeating-conic-gradient(#ccc 0% 25%, #fff 0% 50%) 50% / 16px 16px;display:flex;align-items:center;justify-content:center;height:120px">
+      <span style="font-size:11px;color:#333;background:rgba(255,255,255,0.8);padding:4px 8px">trasparente</span>
+    </div>
+    <div class="card-body"><h3>Anteprima B</h3></div>
+  </div>
+</div>
+
+<p class="subtitle" style="margin-top:16px">Clicca o rispondi nel terminale (A, B o C + colore)</p>

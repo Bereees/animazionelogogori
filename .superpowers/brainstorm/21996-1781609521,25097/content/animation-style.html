@@ -1,0 +1,50 @@
+<h2>Come deve comparire la poesia?</h2>
+<p class="subtitle">Il testo parte dall'angolo in alto a sinistra e segue la spirale verso il centro. Quale effetto preferisci?</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Maschera lungo il tracciato</h3>
+      <p>Il testo è già posizionato; una maschera si apre progressivamente lungo la spirale, come se qualcosa "scorresse" sul percorso e rivelasse le parole.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Gruppi in sequenza</h3>
+      <p>Ogni blocco di testo (riga/segmento del SVG) compare uno dopo l'altro seguendo l'ordine della spirale, con fade-in o slide breve.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Lettera per lettera</h3>
+      <p>Le lettere appaiono una alla volta lungo il percorso, come se qualcuno stesse scrivendo la poesia seguendo la spirale.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="d" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>Altro</h3>
+      <p>Hai in mente un effetto diverso — descrivilo nel terminale.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mockup" style="margin-top:24px">
+  <div class="mockup-header">Schema concettuale — opzione A (maschera)</div>
+  <div class="mockup-body" style="padding:20px;font-family:monospace;font-size:12px;line-height:1.6;background:#fafafa">
+    <pre style="margin:0;color:#333">┌─────────────────────────┐
+│ Tu mi ricordi, non è... │  ← testo già posizionato
+│                         │
+│    ┌───────────────┐    │
+│    │               │    │
+│    │   ████████    │    │  ← maschera che avanza
+│    │   █ centro    │    │     lungo la spirale
+│    └───────────────┘    │
+└─────────────────────────┘</pre>
+  </div>
+</div>
+
+<p class="subtitle" style="margin-top:16px">Clicca un'opzione e rispondi anche nel terminale (es. "A")</p>
